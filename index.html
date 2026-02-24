@@ -35,12 +35,17 @@
           class="secondary"
           >LinkedIn</a
         >
-        <a href="https://github.com/Ajay-Sagar12" style="border:1px solid" target="_blank">GitHub</a>
+        <a
+          href="https://github.com/Ajay-Sagar12"
+          style="border: 1px solid"
+          target="_blank"
+          >GitHub</a
+        >
         <a
           href="https://www.linkedin.com/in/ajay-sagar-061863222/"
           target="_blank"
           class="secondary"
-          style="background-color: blueviolet; color : white"
+          style="background-color: blueviolet; color: white"
           >LeetCode</a
         >
       </div>
@@ -136,13 +141,45 @@
         <p>70%</p>
       </div>
     </section>
-
     <section id="contact" class="section contact">
-      <h2>Contact</h2>
+      <h2>Contact Me</h2>
+      <form
+        action="https://formspree.io/f/xdalykrl"
+        method="POST"
+        class="contact-form"
+      >
+        <div class="form-group">
+          <label>First Name</label>
+          <input type="text" name="firstName" required />
+        </div>
+
+        <div class="form-group">
+          <label>Last Name</label>
+          <input type="text" name="lastName" required />
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label>Contact Number</label>
+          <input type="tel" name="contact" required />
+        </div>
+
+        <div class="form-group">
+          <label>Message</label>
+          <textarea name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <section id="contact" class="section contact">
       <p>Email: sagarajay913@gmail.com</p>
       <p>Phone: +91 7349229848</p>
     </section>
-
     <footer>
       <p>© 2026 Ajay Sagar | Designed with ❤️</p>
     </footer>
